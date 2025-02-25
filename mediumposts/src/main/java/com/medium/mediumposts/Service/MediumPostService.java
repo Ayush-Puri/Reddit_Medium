@@ -6,7 +6,6 @@
 package com.medium.mediumposts.Service;
 
 
-import com.medium.mediumposts.Entity.MediumPost;
 import org.springframework.stereotype.Service;
 
 /**
