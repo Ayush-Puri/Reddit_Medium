@@ -6,6 +6,8 @@ This project is a **Reddit + Medium-inspired platform** that enables users to su
 ## Status 
 - Monolith 85 % Finish ✅ (Elasticsearch addition remaining), Microservices Archietecture Update - Inter-Service API Gateway setup in progress (Including Security and maintaining Data Integrity)
 
+Check Reddit_Monolith for Monolith version of Backend.
+
 ## Key Features
 - **Modular Microservices Architecture**: The platform is designed with separate services for:
   - **User Authentication & Subscriptions**
