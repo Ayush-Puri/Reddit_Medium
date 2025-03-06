@@ -3,10 +3,13 @@
 ## Overview
 This project is a **Reddit + Medium-inspired platform** that enables users to submit projects, post discussions, comment, and interact with other users in a microservices architecture. The platform is built using **Spring Boot, Spring WebFlux, and Microservices**, ensuring scalability, performance, and efficiency.
 
+## Status 
+- Monolith 85 % Finish ✅ (Elasticsearch addition remaining), Microservices Archietecture Update - Inter-Service API Gateway setup in progress (Including Security and maintaining Data Integrity)
+
 ## Key Features
 - **Modular Microservices Architecture**: The platform is designed with separate services for:
   - **User Authentication & Subscriptions**
-  - **Project Submissions & Discussions**
+  - ** Submissions & Discussions**
   - **Reactive Read Service** for high-volume, non-blocking data retrieval
 - **Asynchronous & Non-Blocking Reads**: Implemented **Spring WebFlux** to handle a **1000:1 read-to-write ratio**, improving responsiveness and concurrency.
 - **Search Optimization**: Integrated **Elasticsearch** to enable fast search by **title, description, and metadata**, enhancing content discoverability.
@@ -16,7 +19,7 @@ This project is a **Reddit + Medium-inspired platform** that enables users to su
 ## Technology Stack
 - **Backend**: Java, Spring Boot, Spring WebFlux, Spring Security, Spring Data JPA, Hibernate
 - **Microservices**: Spring Cloud, Netflix Eureka
-- **Database**: PostgreSQL (Primary Database), Elasticsearch (Search Optimization)
+- **Database**: PostgreSQL (Primary Database), Elasticsearch (Search Optimization), MongoDB (Document Database)
 - **API Gateway**: Spring Cloud Gateway (for request routing and load balancing)
 - **Authentication**: JWT-based authentication with Spring Security
 - **Infrastructure & Deployment**: Docker, Kubernetes (future scope)
